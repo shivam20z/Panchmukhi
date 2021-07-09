@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.panchmukhi.eclinic">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher_333"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_333_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Panchmukhi">
+        <activity android:name=".Agent.BookAppointment.PatientDetails"></activity>
+        <activity android:name=".Agent.BookAppointment.VerifyOTP"></activity>
+        <activity android:name=".Registration.Login.LoginDashBoard" />
+        <activity android:name=".Doctor.ExploreAppointment.ExploreAppointmentDetails" />
+        <activity android:name=".Agent.AllAppointment.AppointmentDetails" />
+        <activity android:name=".Agent.BookAppointment.OtpVerification" />
+        <activity android:name=".Registration.SignUp.DoctorRegister" />
+        <activity android:name=".Doctor.DoctorDashBoard.DoctorHomepage" />
+        <activity android:name=".Registration.ForgetPassword.ForgetPassword" />
+        <activity android:name=".Agent.AllAppointment.AppointmentList" />
+        <activity android:name=".Agent.DoctorList.DoctorListRv" />
+        <activity android:name=".PaymentPage" />
+        <activity android:name=".Agent.AboutUs.AboutUsPage" />
+        <activity
+            android:name=".Test"
+            android:launchMode="singleTop"></activity>
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registration.SignUp.AgentRegister"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agent.Homepage.Home"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_dTgnOQetMPZ0JD" />
+
+        <activity
+            android:name=".Registration.SignUp.UserRegister"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Registration.Login.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mail.SendMail"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".Notification.FirebaseMessagingService"
+            android:permission="TODO"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

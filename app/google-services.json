@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "207729367480",
+    "project_id": "e-clinic-1946a",
+    "storage_bucket": "e-clinic-1946a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207729367480:android:a3f34babec3557a2b0974d",
+        "android_client_info": {
+          "package_name": "com.panchmukhi.eclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207729367480-iodepg3250o0npbg5ffjhq10begsqkcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.panchmukhi.eclinic",
+            "certificate_hash": "05e36d024bd982c946a221062928791a8aaa0e19"
+          }
+        },
+        {
+          "client_id": "207729367480-l4jdsi73m70vckkq8obqh3tahf0ongbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8on7UjKDH_nruwgxS_NiOkLk026z0bRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207729367480-l4jdsi73m70vckkq8obqh3tahf0ongbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
